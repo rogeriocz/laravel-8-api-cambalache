@@ -19,6 +19,8 @@ class CreateProductsTable extends Migration
             $table->string('type');
             $table->decimal('price', 8, 2);
             $table->string('image');
+            $table->unsignedBigInteger('type_id')->nullable();
+            $table->foreign('type_id')->references('id')->on('types');
             $table->timestamps();
         });
     }
