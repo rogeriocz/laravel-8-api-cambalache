@@ -16,21 +16,24 @@ class AnuncioController extends Controller
     {
         $query = Anuncio::query();
 
-
-        if ($request->has('type_id')) {
-            $query->where('type_id', $request->input('type_id'));
+        $typeId = $request->input('type_id');
+        if ($typeId) {
+            $query->where('type_id', $typeId);
         }
 
-        if ($request->has('price_min')) {
-            $query->where('price', '>=', $request->input('price_min'));
+        $priceMin = $request->input('price_min');
+        if ($priceMin) {
+            $query->where('price', '>=', $priceMin);
         }
 
-        if ($request->has('price_max')) {
-            $query->where('price', '<=', $request->input('price_max'));
+        $priceMax = $request->input('price_max');
+        if ($priceMax) {
+            $query->where('price', '<=', $priceMax);
         }
 
-        if ($request->has('title')) {
-            $query->where('title', 'like', '%' . $request->input('title') . '%');
+        $title = $request->input('title');
+        if ($title) {
+            $query->where('title', 'like', '%' . $title . '%');
         } // WHERE title like '%carro%'
 
         // $anuncios = $query->paginate(10);
