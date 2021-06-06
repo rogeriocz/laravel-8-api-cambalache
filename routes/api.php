@@ -1,5 +1,9 @@
 <?php
 
+use App\Http\Controllers\AnuncioController;
+use App\Http\Controllers\EmailController;
+use App\Http\Controllers\TypeController;
+
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -14,11 +18,22 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
+/* Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
 
 Route::get('/products', function (Request $request) {
     return $request->user();
-});
+}); */
+
+
+
+
+// Api de menssages
+/* Route::get('/messages', [MessageController::class, 'index']);
+Route::post('/messages', [MessageController::class, 'store']); */
+
+Route::get('/types', [TypeController::class, 'index']);
+Route::apiResource('emails', EmailController::class);
+Route::apiResource('anuncios', AnuncioController::class);

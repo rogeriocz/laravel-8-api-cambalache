@@ -14,12 +14,10 @@ class TypeSeeder extends Seeder
      */
     public function run()
     {
-        /* Type::create([ "name"=> "Casas"]);
+        Type::create([ "name"=> "Casas"]);
         Type::create([ "name"=> "Carros"]);
         Type::create([ "name"=> "Celulares"]);
         Type::create([ "name"=> "Laptops"]);
-        Type::create([ "name"=> "Tables"]); */
-
-        Type::factory()->count(10)->create();
+        Type::create([ "name"=> "Tablets"]);
     }
 }

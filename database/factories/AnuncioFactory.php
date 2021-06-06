@@ -2,17 +2,17 @@
 
 namespace Database\Factories;
 
-use App\Models\Product;
+use App\Models\Anuncio;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
-class ProductFactory extends Factory
+class AnuncioFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.
      *
      * @var string
      */
-    protected $model = Product::class;
+    protected $model = Anuncio::class;
 
     /**
      * Define the model's default state.
@@ -23,11 +23,10 @@ class ProductFactory extends Factory
     {
         return [
             'title' => $this->faker->sentence(),
-            'type' => $this->faker->randomElement(['casa','carro','celular','laptop','table']),
+            'type_id' => $this->faker->numberBetween(1, 5),
             'description' => $this->faker->paragraph(),
-            'price' => $this->faker->numberBetween($min = 500, $max = 10000),
-
-
+            'price' => $this->faker->randomFloat(2, 500, 7000),
+            'image' => $this->faker->imageUrl(600, 600, 'technics')
        ];
     }
 }
