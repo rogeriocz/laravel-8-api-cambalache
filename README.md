@@ -57,12 +57,12 @@ DB_PASSWORD=
   ```
 * Actualiza un Anuncio:
 
-  * PUT http://localhost/api/anuncios/50
+  * PUT http://localhost/api/anuncios/1
   ```
     {
         "title": "celular usado",
         "description": "samsung ml2345",
-        "price": "1500",
+        "price": "110",
         "type_id": "1",
         "image": "https://via.placeholder.com/600x600.png/007733?text=technics+ut"
     }
@@ -79,6 +79,35 @@ DB_PASSWORD=
 * Lista de Mensajes:
 
   * GET http://localhost/api/emails
+
+* Crear Mensaje:
+
+  * POST http://localhost/api/emails
+  ```
+    {
+        "name": "Rogerio cuervo z",
+        "email": "demo@correo.com",
+        "message": "Aprender VUE"
+    }
+  ```
+* Actualiza un Mensaje:
+
+  * PUT http://localhost/api/emails/1
+  ```
+    {
+         "name": "Rogerio cuervo z",
+        "email": "demo@correo.com",
+        "message": "Aprender VUE y Docker"
+    }
+  ```
+* Elimina un Mensaje:
+
+  * PUT http://localhost/api/emails/1
+  ```
+    {
+       El mensaje con el id: 1 ha sido eliminado
+    }
+  ```
 
 - [Documentación de la API generado por POSTMAN](https://documenter.getpostman.com/view/2148064/TzY68tzK).
 
