@@ -10,7 +10,7 @@ class Anuncio extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['title', 'type_id', 'description', 'price'];
+    protected $fillable = ['title', 'type_id', 'description', 'image', 'price'];
 
     protected $appends = ['type_name'];
 

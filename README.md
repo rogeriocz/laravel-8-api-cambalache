@@ -37,13 +37,27 @@ DB_USERNAME=root
 DB_PASSWORD=
 ```
 
-#Documentación de API 
-
-##Ejemplos Válidos de URLs
+# Documentación de API 
+## Ejemplos Válidos de URLs
 * Lista de Anuncios:
 
   * GET http://localhost/api/anuncios
 
+* Crear de Anuncios:
+
+  * POST http://localhost/api/anuncios
+  ```
+    {
+        "title": "casa",
+        "type": "batman@gmail.com",
+        "description": "hola robin",
+        "price": "2000"
+    }
+  ```
+
+* Crear de Anuncios:
+
+  * PUT http://localhost/api/anuncios/1
 
 - [Documentación de la API generado por POSTMAN](https://documenter.getpostman.com/view/2148064/TzY68tzK).
 

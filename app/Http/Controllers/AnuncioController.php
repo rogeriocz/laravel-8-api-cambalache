@@ -52,7 +52,8 @@ class AnuncioController extends Controller
     {
         $request ->validate([
             'title' => 'required',
-            'type' => 'required',
+            //'type' => 'required',
+
             'description' => 'required|max:255',
             'price' => 'required|max:255',
 
