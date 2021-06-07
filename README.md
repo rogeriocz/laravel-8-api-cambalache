@@ -48,10 +48,11 @@ DB_PASSWORD=
   * POST http://localhost/api/anuncios
   ```
     {
-        "title": "casa",
-        "type": "batman@gmail.com",
-        "description": "hola robin",
-        "price": "2000"
+        "title": "celular usado",
+        "description": "samsung ml2345",
+        "price": "200",
+        "type_id": "1",
+        "image": "https://via.placeholder.com/600x600.png/007733?text=technics+ut"
     }
   ```
 
@@ -66,5 +67,3 @@ DB_PASSWORD=
 
 ## License
 Eres libre de descargar el proyecto e instalarlo en local. 
-
-
