@@ -5,7 +5,10 @@ Creación de API para proyecto cambalache.
 
 ## Documentación de proyecto cambalache
 
-El proyecto esta creado en el framework -- **[Laravel]( https://laravel.com/docs/8.x). versión 8, no tiene implementado sistema de autenticación ya que lo único que se requiere es mostrar datos de tipo get, post, delete, y update , para efectos practica y aprender a consumir Api desde cualquier frontEnt o lenguaje de programación.
+El proyecto esta creado en el framework [Laravel versión 8]( https://laravel.com/docs/8.x). no tiene implementado sistema de autenticación ya que lo único que se requiere es mostrar datos de tipo get, post, delete, y update , para efectos practica y aprender a consumir Api desde cualquier frontEnt o lenguaje de programación.
+
+Dentro del framework de laravel se crea tres rutas de tipo api que se encuentran dentro del archivo [api.php]( https://github.com/rogeriocz/laravel-8-api-cambalache/blob/master/routes/api.php), a su vez para estas tres rutas se crean sus respectivos [controladores]( https://github.com/rogeriocz/laravel-8-api-cambalache/tree/master/app/Http/Controllers), [modelos]( https://github.com/rogeriocz/laravel-8-api-cambalache/tree/master/app/Models) y [migraciones]( https://github.com/rogeriocz/laravel-8-api-cambalache/tree/master/database/migrations)
+
 
 
 - [Documentación de la API generado por POSTMAN](https://documenter.getpostman.com/view/2148064/TzY68tzK).
