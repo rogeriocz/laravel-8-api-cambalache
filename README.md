@@ -40,12 +40,9 @@ DB_PASSWORD=
 #Documentación de API 
 
 ##Ejemplos Válidos de URLs
-### GET
-* Lista de Anuncios
-```
-http://localhost/api/anuncios
-```
-* Lista de Anuncios
+* Lista de Anuncios:
+
+  * GET http://localhost/api/anuncios
 
 
 - [Documentación de la API generado por POSTMAN](https://documenter.getpostman.com/view/2148064/TzY68tzK).
