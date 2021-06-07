@@ -1,15 +1,15 @@
 
 ## Api cambalache
 
-API del servicios de
+Creación de API para proyecto cambalache.
 
-- [Documentación de la API](https://documenter.getpostman.com/view/2148064/TzY68tzK).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Documentación de proyecto cambalache
+
+El proyecto esta creado en el framework -- **[Laravel]( https://laravel.com/docs/8.x). versión 8, no tiene implementado sistema de autenticación ya que lo único que se requiere es mostrar datos de tipo get, post, delete, y update , para efectos practica y aprender a consumir Api desde cualquier frontEnt o lenguaje de programación.
+
+
+- [Documentación de la API generado por POSTMAN](https://documenter.getpostman.com/view/2148064/TzY68tzK).
+
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
