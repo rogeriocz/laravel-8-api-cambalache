@@ -15,38 +15,34 @@ Message: se ocupa para identificar los archivos y tabla que se ocupara de guarda
 
 ### Base de datos.
 La base de datos que se recomienda y que se hicieron pruebas en local es Post
-Eres libre de descargar el proyecto e instalarlo en local. 
 
+_Postgresql configuración de driver en el archivo .env_
 
+```
+DB_CONNECTION=pgsql
+DB_HOST=127.0.0.1
+DB_PORT=5432
+DB_DATABASE=demo
+DB_USERNAME=user
+DB_PASSWORD=
+```
+Mysql configuración de driver en el archivo .env_
 
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=demo_data_base
+DB_USERNAME=root
+DB_PASSWORD=
+```
 
 - [Documentación de la API generado por POSTMAN](https://documenter.getpostman.com/view/2148064/TzY68tzK).
 
 
 
 
-## Learning Laravel
-
-
-## Laravel Sponsors
-
-
-
-### Premium Partners
-
-
-## Contributing
-
-
-
-## Code of Conduct
-
-
-
-## Security Vulnerabilities
-
-
-
 ## License
+Eres libre de descargar el proyecto e instalarlo en local. 
 
 
