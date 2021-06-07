@@ -116,16 +116,8 @@ DB_PASSWORD=
 * Lista de Tipos:
 
   * GET http://localhost/api/types
-
-
-
-update
-
 ## Pruebas en postMan
 - [Documentación de la API generado por POSTMAN](https://documenter.getpostman.com/view/2148064/TzY68tzK).
 
-
-
-
 ## License
-Eres libre de descargar el proyecto e instalarlo en local. 
+Eres libre de descargar el proyecto e instalarlo.
