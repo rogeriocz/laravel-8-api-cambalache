@@ -14,9 +14,9 @@ Anuncio: se ocupa para identificar los archivos que servirán para hacer la API 
 Message: se ocupa para identificar los archivos y tabla que se ocupara de guardar los mensajes que se envíen desde el formulario de contacto.
 
 ### Base de datos.
-La base de datos que se recomienda y que se hicieron pruebas en local es Post
+La base de datos que se hicieron pruebas en local es Postgresql y Mysql, puedes configurar los paramtros dentro del archivo .env 
 
-_Postgresql configuración de driver en el archivo .env_
+_Postgresql configuración de parametros en el archivo .env_
 
 ```
 DB_CONNECTION=pgsql
@@ -26,7 +26,7 @@ DB_DATABASE=demo
 DB_USERNAME=user
 DB_PASSWORD=
 ```
-Mysql configuración de driver en el archivo .env_
+Mysql configuración de parametros en el archivo .env_
 
 ```
 DB_CONNECTION=mysql
@@ -36,6 +36,17 @@ DB_DATABASE=demo_data_base
 DB_USERNAME=root
 DB_PASSWORD=
 ```
+
+#Documentación de API 
+
+##Ejemplos Válidos de URLs
+### GET
+* Lista de Anuncios
+```
+http://localhost/api/anuncios
+```
+* Lista de Anuncios
+
 
 - [Documentación de la API generado por POSTMAN](https://documenter.getpostman.com/view/2148064/TzY68tzK).
 
