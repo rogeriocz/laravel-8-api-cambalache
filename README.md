@@ -43,7 +43,7 @@ DB_PASSWORD=
 
   * GET http://localhost/api/anuncios
 
-* Crear de Anuncios:
+* Crear Anuncios:
 
   * POST http://localhost/api/anuncios
   ```
@@ -55,10 +55,30 @@ DB_PASSWORD=
         "image": "https://via.placeholder.com/600x600.png/007733?text=technics+ut"
     }
   ```
+* Actualiza un Anuncio:
 
-* Crear de Anuncios:
+  * PUT http://localhost/api/anuncios/50
+  ```
+    {
+        "title": "celular usado",
+        "description": "samsung ml2345",
+        "price": "1500",
+        "type_id": "1",
+        "image": "https://via.placeholder.com/600x600.png/007733?text=technics+ut"
+    }
+  ```
+* Elimina un Anuncio:
 
-  * PUT http://localhost/api/anuncios/1
+  * PUT http://localhost/api/anuncios/50
+  ```
+    {
+       El Anuncio con el id: 50 ha sido eliminado
+    }
+  ```
+
+* Lista de Mensajes:
+
+  * GET http://localhost/api/emails
 
 - [Documentación de la API generado por POSTMAN](https://documenter.getpostman.com/view/2148064/TzY68tzK).
 
