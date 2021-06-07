@@ -36,7 +36,7 @@ class AnuncioController extends Controller
             $query->where('title', 'like', '%' . $title . '%');
         } // WHERE title like '%carro%'
 
-        // $anuncios = $query->paginate(10);
+         $anuncios = $query->paginate(10);
         $anuncios = $query->get();
 
         return response($anuncios);
