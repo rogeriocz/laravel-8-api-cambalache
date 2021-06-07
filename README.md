@@ -117,9 +117,9 @@ DB_PASSWORD=
 
 
 
+update
 
 
-  
 - [Documentación de la API generado por POSTMAN](https://documenter.getpostman.com/view/2148064/TzY68tzK).
 
 
