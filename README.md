@@ -45,6 +45,10 @@ DB_PASSWORD=
 
   * GET http://localhost/api/anuncios
 
+* Lista de anuncios query params type_id, price_min, price_max
+  * GET http://localhost/api/anuncios?type_id=1&price_min=1000&price_max=5000
+  
+
 * Crear Anuncios:
 
   * POST http://localhost/api/anuncios
