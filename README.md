@@ -38,7 +38,7 @@ DB_PASSWORD=
 ```
 
 # Documentación de API 
-## Ejemplos Válidos de URLs
+## Ejemplos Válidos de URLs Anuncios
 * Lista de Anuncios:
 
   * GET http://localhost/api/anuncios
@@ -75,6 +75,7 @@ DB_PASSWORD=
        El Anuncio con el id: 50 ha sido eliminado
     }
   ```
+## Ejemplos Válidos de URLs Mensajes
 
 * Lista de Mensajes:
 
@@ -108,7 +109,17 @@ DB_PASSWORD=
        El mensaje con el id: 1 ha sido eliminado
     }
   ```
+## Ejemplos Válidos de URLs Tipos
 
+* Lista de Tipos:
+
+  * GET http://localhost/api/types
+
+
+
+
+
+  
 - [Documentación de la API generado por POSTMAN](https://documenter.getpostman.com/view/2148064/TzY68tzK).
 
 
