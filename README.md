@@ -75,7 +75,7 @@ DB_PASSWORD=
   ```
 * Elimina un Anuncio:
 
-  * PUT http://localhost/api/anuncios/50
+  * DELETE http://localhost/api/anuncios/50
   ```
     {
        El Anuncio con el id: 50 ha sido eliminado
@@ -109,7 +109,7 @@ DB_PASSWORD=
   ```
 * Elimina un Mensaje:
 
-  * PUT http://localhost/api/emails/1
+  * DELETE http://localhost/api/emails/1
   ```
     {
        El mensaje con el id: 1 ha sido eliminado
